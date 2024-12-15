@@ -18,6 +18,5 @@
 ![](https://github-contributor-stats.vercel.app/api?username=Bini34&limit=5&theme=dark&combine_all_yearly_contributions=true)
 
 ---
-[![](https://visitcount.itsvg.in/api?id=Bini34&icon=0&color=3)](https://visitcount.itsvg.in)
-
+[![](https://visitcount.itsvg.in/api?id=bini34&label=Profile%20Views&color=1&icon=0&pretty=true)](https://visitcount.itsvg.in)
 <!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
