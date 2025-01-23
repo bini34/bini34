@@ -24,7 +24,7 @@
 
 **<h3 align="left">Rapid Fire</h3>**
 
-- 💼 I'm currently working on: **💻 Developing a new budget tracker using next js and node js**
+- 💼 I'm currently working on: **💻 Developing a new [budget tracker](https://github.com/bini34/BudgetBuddy) using next js and node js** 
 - 🌱 I'm currently learning: **👨‍💻 MongoDB**
 - 💬 Ask me about: **💡 JavaScript, React, Node.js, Mysql, and RESTful APIs**
 - ⚡ Fun fact: **🎢 I once debugged a issue while on a roller coaster!**
