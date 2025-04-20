@@ -54,6 +54,7 @@
 <p align="left">
 
   <img width="48%" src="https://github-contributor-stats.vercel.app/api?username=Bini34&limit=5&theme=white&combine_all_yearly_contributions=true" alt="GitHub repo-card Card" />
+  <img width="48%" src="https://github-readme-streak-stats.herokuapp.com?user=bini34" alt="GitHub repo-card Card" />
   [![GitHub Streak](https://github-readme-streak-stats.herokuapp.com?user=bini34)](https://git.io/streak-stats)
 
      
