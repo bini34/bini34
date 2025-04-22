@@ -1,5 +1,6 @@
-![👋 Hi, my name is Biniyam Ambachew](banner.gif)
-
+<div align="center">
+  <img src="banner.gif" alt="👋 Hi, my name is Biniyam Ambachew">
+</div>
 ![Profile views](https://komarev.com/ghpvc/?username=bini34&label=Profile%20views&color=0e75b6&style=flat)
 
 
