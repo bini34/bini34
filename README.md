@@ -1,4 +1,4 @@
-![👋 Hi, my name is Biniyam Ambachew](https://user-images.githubusercontent.com/10498744/210012254-234538ff-d198-48aa-8964-37e6fd45d227.gif)
+![👋 Hi, my name is Biniyam Ambachew](banner.gif)
 
 ![Profile views](https://komarev.com/ghpvc/?username=bini34&label=Profile%20views&color=0e75b6&style=flat)
 
