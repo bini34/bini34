@@ -25,7 +25,7 @@
 **<h3 align="left">Rapid Fire</h3>**
 
 - 💼 I'm currently working on: **💻 Developing a Portfolio Website using next js** 
-- 🌱 I'm currently learning: **👨‍💻 Gsap and Three JS**
+- 🌱 I'm currently learning: **👨‍💻 Flutter**
 - 💬 Ask me about: **💡 JavaScript, React, Node.js, Mysql, and RESTful APIs**
 - ⚡ Fun fact: **🎢 I once debugged a issue while on a roller coaster!**
 
