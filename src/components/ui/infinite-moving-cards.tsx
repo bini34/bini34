@@ -90,7 +90,7 @@ export const InfiniteMovingCards = ({
       >
         {items.map((item, idx) => (
           <li
-            className="relative w-auto max-w-full shrink-0  px-8 py-2 "
+            className="relative w-auto max-w-full shrink-0  px-8 py-2  "
             key={idx}
           >
               <Image 
@@ -100,7 +100,7 @@ export const InfiniteMovingCards = ({
                 height={250}
                 style={{ height: height || "auto" }}
 
-                className= {`w-auto object-contain`}
+                className= {`w-auto object-contain rounded-2xl`}
               />
           </li>
         ))}
