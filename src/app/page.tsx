@@ -1,12 +1,15 @@
 import Header from "@/components/header";
+import Hero from "@/components/hero";
+import WorkSlider from "@/components/workSlider";
 
 export default function Home() {
   return (
     <>
    <Header/>
-    <div className="w-full">
-      <h1 className="font-bold text-7xl">hello world</h1>
-    </div>
+   <main className=" flex flex-col gap-20">
+    <Hero/>
+    <WorkSlider/>
+   </main>
     </>
     
   );
