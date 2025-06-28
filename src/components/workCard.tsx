@@ -1,0 +1,27 @@
+import React from 'react'
+import Image from 'next/image'
+
+function WorkCard() {
+    return (
+        <div className="relative flex items-center justify-center min-h-screen bg-white overflow-hidden w-full">
+          
+          {/* Background Text */}
+          <h1 className="absolute text-[10rem] font-stretch-expanded md:text-[16rem] font-extrabold text-center text-gray-700 tracking-[5rem] opacity-10 z-0 select-none">
+            JYSEIFY</h1>
+    
+          {/* Rotating Card */}
+          <div className="z-10 transition-transform duration-700 ease-in-out hover:rotate-0 rotate-12 hover:scale-105 cursor-pointer ">
+            <h1 className='mb-3 ml-3'>JYSEIFY</h1>
+            <Image
+              src="/images/0QxnW2xKsEl2T7B8elNMuh3Mwqk.avif"
+              alt="Jyseify"
+              width={600}
+              height={800}
+              className="rounded-2xl shadow-2xl border-gray-500 border-8 "
+            />
+          </div>
+        </div>
+      )
+}
+
+export default WorkCard
