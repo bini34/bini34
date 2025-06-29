@@ -11,7 +11,7 @@ function Skills() {
     
       return (
       
-        <div className="h-[5rem] rounded-md flex flex-col antialiased bg-transparent items-center justify-center w-full overflow-hidden p-0 ">
+        <div className="h-[5rem] rounded-md flex flex-col antialiased bg-transparent items-center justify-center w-full overflow-hidden p-0  ">
             <InfiniteMovingCards
                 items={brandLogos}
                 direction="right"
