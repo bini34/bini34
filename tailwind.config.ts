@@ -10,6 +10,9 @@ module.exports = {
             '100%': { transform: 'translateY(0)' },
           },
         },
+        fontFamily: {
+          amatic: ['"Amatic SC"', 'sans-serif'],
+        },
       },
     },
   }
