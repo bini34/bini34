@@ -44,7 +44,7 @@ function Header() {
               BINIYAM
             </Link>
         </SheetHeader>
-        <div className="flex flex-col gap-15 h-full text-8xl justify-center align-middle pr-32 font-bold">
+        <div className="flex flex-col gap-15 h-full md:text-8xl text-6xl justify-center align-middle pr-32 font-bold ">
             <Link href="/work" className="hover:text-primary transition-colors">WORK</Link>
             <Link href="/about" className="hover:text-primary transition-colors">ABOUT</Link>
             <Link href="/contact" className="hover:text-primary transition-colors">CONTACT</Link>
