@@ -15,9 +15,13 @@ function Header() {
   return (
     <header className="flex justify-between items-center w-full px-4 py-3 ">
       {/* Logo */}
-      <Link href="/" className="text-xl font-bold text-primary">
-        Biniyam
-      </Link>
+      <Link
+          href="/"
+          className="font-[var(--font-amatic)] text-[30px]  text-primary"
+        >
+          BINIYAM
+        </Link>
+
 
     
 
