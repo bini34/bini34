@@ -13,7 +13,7 @@ function WorkSlider() {
     
       return (
         <section>
-            <div className='w-full pl-16 font-bold text-9xl'>
+            <div className='w-full lg:pl-16 pl-10 font-bold lg:text-9xl text-6xl'>
                 <h1>MY WORK</h1>
             </div>
             <div className="h-[30rem]  flex flex-col antialiased bg-transparent items-center justify-center w-full overflow-hidden p-0 ">
@@ -24,10 +24,12 @@ function WorkSlider() {
                     height = '20rem'
                 />
             </div>
-
+            <div className='flex flex-col gap-15'>
             <WorkCard/>
             <WorkCard/>
             <WorkCard/>
+            </div>
+            
        </section>
   )
 }

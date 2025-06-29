@@ -4,7 +4,7 @@ import Skills from './skills'
 function Hero() {
   return (
     <section className="w-full flex justify-center">
-        <div className="flex flex-col gap-10 w-[600px] items-center ">
+        <div className="flex flex-col gap-10 md:w-[600px] w-full items-center ">
           <div className="w-full flex flex-col items-center ">
               <div className="w-[400px] h-[400px] rounded-full overflow-hidden z-0 border-8 border-gray-500 ">
               <Image

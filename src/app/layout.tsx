@@ -3,6 +3,7 @@ import { Geist, Geist_Mono, Amatic_SC } from "next/font/google";
 import "./globals.css";
 import Footer from "@/components/footer";
 import Header from "@/components/header";
+import { BackgroundBeams } from "@/components/ui/background-beams";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -36,6 +37,10 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} ${amatic.variable}  antialiased`}
       >
+        <div className="absolute top-0 -z-10">
+        <BackgroundBeams />
+
+        </div>
         <Header/>
           {children}
         <Footer/>
