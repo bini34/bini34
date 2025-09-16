@@ -25,27 +25,63 @@ export const links = [
 
 export const projectsData = [
   {
-    image: '/images/project-2.webp',
-    title: 'Next-starter',
+    image: '/images/eros-addis.webp',
+    title: 'Eros Addis Restaurant Website',
     description:
-      'A Next.js starter template, packed with features like TypeScript, Tailwind CSS, Next-auth, Eslint, Stripe, testing tools and more.',
-    technologies: ['Next.js', 'Tailwind', 'Shadcn/ui', 'Next-auth', 'Prisma'],
+      'A WordPress-based restaurant website featuring online reservation, menu display, about page, and contact information. Designed for a seamless user experience.',
+    technologies: ['WordPress', 'PHP', 'HTML', 'CSS', 'JavaScript'],
     links: {
-      preview: 'https://next-starter-skolaczk.vercel.app',
-      github: 'https://github.com/Skolaczk/next-starter',
-      githubApi: 'https://api.github.com/repos/Skolaczk/next-starter',
+      preview: 'https://erosaddis.com', // replace with actual live link
+      github: '', // WordPress project, GitHub link optional
+      githubApi: '',
     },
   },
   {
-    image: '/images/project-1.webp',
-    title: 'SocialHub',
+    image: '/images/skillfy.webp',
+    title: 'Skillfy',
     description:
-      'SocialHub is a next-generation social media app developed using Next.js and Nest.js.',
-    technologies: ['Next.js', 'TypeScript', ' Nest.js', 'Tailwind', 'Prisma'],
+      'A full-stack e-learning platform connecting instructors and students. Students can browse courses, make purchases using Chapa, and track their learning progress.',
+    technologies: [
+      'React',
+      'ASP.NET Core',
+      'Chapa API',
+      'SQL Server',
+      'Tailwind CSS',
+    ],
     links: {
-      preview: 'https://socialhub-ms.vercel.app/',
-      github: 'https://github.com/Skolaczk/SocialHub',
-      githubApi: 'https://api.github.com/repos/Skolaczk/SocialHub',
+      preview: 'https://skillfy.com', // replace with actual live link
+      github: 'https://github.com/Biniyam/Skillfy', // replace with your repo link
+      githubApi: 'https://api.github.com/repos/Biniyam/Skillfy',
+    },
+  },
+  {
+    image: '/images/budget-buddy.webp',
+    title: 'Budget Buddy',
+    description:
+      'A full-stack personal finance management app built with Next.js and Node.js. Helps users track and control their budgets efficiently.',
+    technologies: [
+      'Next.js',
+      'Node.js',
+      'MongoDB',
+      'Tailwind CSS',
+      'TypeScript',
+    ],
+    links: {
+      preview: 'https://budgetbuddy.com', // replace with actual live link
+      github: 'https://github.com/Biniyam/BudgetBuddy', // replace with your repo link
+      githubApi: 'https://api.github.com/repos/Biniyam/BudgetBuddy',
+    },
+  },
+  {
+    image: '/images/yennu-creatives.webp',
+    title: 'Yennu Creatives Website',
+    description:
+      'A modern agency website with Home, About, Projects, and Contact pages, built to showcase services and portfolio projects.',
+    technologies: ['Next.js', 'React', 'Tailwind CSS', 'TypeScript'],
+    links: {
+      preview: 'https://yennucreatives.com', // replace with actual live link
+      github: 'https://github.com/Biniyam/YennuCreatives', // replace with your repo link
+      githubApi: 'https://api.github.com/repos/Biniyam/YennuCreatives',
     },
   },
 ] as const;
