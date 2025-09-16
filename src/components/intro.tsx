@@ -41,11 +41,11 @@ export const Intro = () => {
         animate={{ opacity: 1, y: 0 }}
         className="font-heading max-w-3xl text-4xl font-extrabold md:text-5xl"
       >
-        Hi, I&apos;m{' '}
+        Hi, I&apos;m a{' '}
         <span className="bg-gradient-to-r from-rose-700 to-pink-600 bg-clip-text text-transparent">
-          Biniyam Beyene
+          Full-Stack
         </span>
-        , a Full-Stack Developer building modern web applications.
+         Developer building modern web applications.
       </motion.h1>
 
       <motion.p
@@ -58,9 +58,8 @@ export const Intro = () => {
       >
         I&apos;m a full-stack developer based in Ethiopia, passionate about
         building robust and scalable web apps. I work with technologies like
-        React, Next.js, Node.js, Nest.js, Laravel, Django, ASP.NET Core,
-        Tailwind CSS, and databases including PostgreSQL and MongoDB. I also
-        have experience creating WordPress websites and e-learning platforms.
+        React, Next.js, Node.js, Nest.js, Tailwind CSS, and databases like
+        PostgreSQL and MongoDB.
       </motion.p>
 
       <motion.div
@@ -85,7 +84,7 @@ export const Intro = () => {
 
         <Button variant="outline" size="icon" asChild>
           <Link
-            href="https://www.linkedin.com/in/biniyam-beyene"
+            href="https://www.linkedin.com/in/biniyam-ambachew-99b53ab7/"
             aria-label="Linkedin"
             target="_blank"
           >
@@ -95,7 +94,7 @@ export const Intro = () => {
 
         <Button variant="outline" size="icon" asChild>
           <Link
-            href="https://github.com/Biniyam"
+            href="https://github.com/bini34"
             aria-label="Github"
             target="_blank"
           >
