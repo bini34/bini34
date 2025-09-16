@@ -1,8 +1,4 @@
-import Link from 'next/link';
-
-import { buttonVariants } from '@/components/button';
 import { Icons } from '@/components/icons';
-import { cn } from '@/lib/utils';
 
 export const links = [
   {
@@ -56,53 +52,46 @@ export const projectsData = [
 
 export const experiencesData = [
   {
-    title: 'Web developer intern',
-    company: 'WEB-BOX, Tarnobrzeg PL',
+    title: 'Front-End Developer',
+    company: 'Yennu Creatives',
     description:
-      'During this internship, I focused on two key areas: creating Wordpress plugins and managing website content, plugins, and settings.',
-    period: '2023',
-    technologies: ['HTML', 'CSS', 'JavaScript', 'Wordpress'],
+      'Built and optimized responsive user interfaces for modern web applications. Collaborated with cross-functional teams to deliver high-quality, scalable solutions. Ensured performance, usability, and clean code through testing and best practices.',
+    period: '2024 - 2025',
+    technologies: ['React', 'Next.js', 'TypeScript', 'Tailwind', 'Figma'],
   },
   {
-    title: 'Frontend developer & UI designer',
-    company: 'Freelancing, remote',
+    title: 'Full-Stack Developer',
+    company: 'Freelancing, Remote',
     description:
-      'As a freelancer, I specialized in graphic design using Figma and website development using Next.js with Sanity CMS. I undertook projects independently, from design conceptualization to final implementation, ensuring client satisfaction.',
-    period: '2023 - 2024',
-    technologies: ['Next.js', 'TypeScript', 'Sanity CMS', 'Tailwind'],
+      'Designed and developed end-to-end web applications using modern front-end and back-end technologies. Integrated APIs, databases, and cloud services to deliver secure and scalable solutions. Collaborated with clients to gather requirements, deploy projects, and provide ongoing support.',
+    period: '2024 - Present',
+    technologies: [
+      'React',
+      'Next.js',
+      'TypeScript',
+      'Tailwind',
+      'Node.js',
+      'Express.js',
+      'MongoDB',
+      'PostgreSQL',
+      'Laravel',
+      'Django',
+      'Flutter',
+    ],
   },
   {
-    title: 'Frontend developer intern',
-    company: 'Chop-chop, remote',
+    title: 'Back-End Developer Intern',
+    company: 'Perago Systems',
     description:
-      'During my internship at Chop-Chop, I collaborated with an experienced IT team, focusing on tasks in Next.js. This experience provided valuable insights into teamwork and advanced my proficiency in Next.js.',
-    period: '2024',
-    technologies: ['Next.js', 'React', 'TypeScript', 'Tailwind'],
-  },
-  {
-    title: 'Frontend developer & UI designer',
-    company: 'GeoScan, remote',
-    description: (
-      <>
-        At GeoScan, I collaborate with frontend, backend, and GIS specialists to
-        build{' '}
-        <Link
-          className={cn(
-            buttonVariants({ variant: 'link' }),
-            'm-0 h-fit p-0 text-base'
-          )}
-          href="https://geoscan-app.com"
-          target="_blank"
-        >
-          geoscan-app.com
-        </Link>{' '}
-        — a platform for generating real estate reports. I’m responsible for
-        developing and maintaining the frontend, as well as designing UI/UX to
-        ensure a clear and intuitive user experience.
-      </>
-    ),
-    period: '2024 - present',
-    technologies: ['Next.js', 'TypeScript', 'Tailwind', 'Supabase', 'Leaflet'],
+      'Actively contributed to migrating legacy systems to cloud-based architectures. Focused on analyzing, mapping, and transferring large datasets while ensuring data integrity. Developed and tested migration scripts, documented schemas, and collaborated with cross-functional teams to modernize application components.',
+    period: 'Jul 2025 - Present',
+    technologies: [
+      'Microsoft SQL Server',
+      'PostgreSQL',
+      'Python',
+      'Bash',
+      'SQL',
+    ],
   },
 ] as const;
 
