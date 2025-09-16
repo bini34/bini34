@@ -35,17 +35,19 @@ export const Intro = () => {
           <span className="font-mono text-sm">Available for work!</span>
         </Link>
       </motion.div>
+
       <motion.h1
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
         className="font-heading max-w-3xl text-4xl font-extrabold md:text-5xl"
       >
-        Hi I&#39;m a{' '}
+        Hi, I&apos;m{' '}
         <span className="bg-gradient-to-r from-rose-700 to-pink-600 bg-clip-text text-transparent">
-          Frontend
-        </span>{' '}
-        developer creating modern web apps.
+          Biniyam Beyene
+        </span>
+        , a Full-Stack Developer building modern web applications.
       </motion.h1>
+
       <motion.p
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
@@ -54,9 +56,13 @@ export const Intro = () => {
         }}
         className="text-muted-foreground max-w-xl"
       >
-        A frontend developer based in the Poland. I&#39;m passionate about
-        building modern web applications using Next.js, React, and Tailwind CSS.
+        I&apos;m a full-stack developer based in Ethiopia, passionate about
+        building robust and scalable web apps. I work with technologies like
+        React, Next.js, Node.js, Nest.js, Laravel, Django, ASP.NET Core,
+        Tailwind CSS, and databases including PostgreSQL and MongoDB. I also
+        have experience creating WordPress websites and e-learning platforms.
       </motion.p>
+
       <motion.div
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
@@ -70,23 +76,26 @@ export const Intro = () => {
             Get in touch <Icons.arrowRight className="ml-2 size-4" />
           </Link>
         </Button>
+
         <Button variant="outline" size="lg" className="hidden sm:flex" asChild>
-          <a href="/michalskolak.pdf" download>
+          <a href="/BiniyamBeyene_CV.pdf" download>
             Download CV <Icons.download className="ml-2 size-4" />
           </a>
         </Button>
+
         <Button variant="outline" size="icon" asChild>
           <Link
-            href="https://www.linkedin.com/in/micha%C5%82-skolak-06905524b"
+            href="https://www.linkedin.com/in/biniyam-beyene"
             aria-label="Linkedin"
             target="_blank"
           >
             <Icons.linkedin className="size-5" />
           </Link>
         </Button>
+
         <Button variant="outline" size="icon" asChild>
           <Link
-            href="https://github.com/Skolaczk"
+            href="https://github.com/Biniyam"
             aria-label="Github"
             target="_blank"
           >
