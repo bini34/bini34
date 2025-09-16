@@ -1,51 +1,47 @@
-import type { Metadata } from "next";
-import { Geist, Geist_Mono, Amatic_SC } from "next/font/google";
-import "./globals.css";
-import Footer from "@/components/footer";
-import Header from "@/components/header";
-import { BackgroundBeams } from "@/components/ui/background-beams";
+import '@/styles/globals.css';
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
-  subsets: ["latin"],
-});
+import { PropsWithChildren } from 'react';
+import type { Metadata } from 'next';
 
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
-});
-
-const amatic = Amatic_SC({
-  weight: "700", // or ["400", "700"] if you need multiple weights
-  subsets: ["latin"],
-  variable: "--font-amatic",
-});
-
+import { ActiveSectionProvider } from '@/components/active-section-provider';
+import { ThemeProvider } from '@/components/theme-provider';
+import { Toaster } from '@/components/toaster';
+import { fonts } from '@/lib/fonts';
+import { siteConfig } from '@/lib/site-config';
+import { cn } from '@/lib/utils';
 
 export const metadata: Metadata = {
-  title: "Biniyam",
-  description: "Biniyam Ambachew Portfolio website",
+  metadataBase: new URL(siteConfig.url),
+  title: {
+    default: siteConfig.title,
+    template: `%s | ${siteConfig.title}`,
+  },
+  description: siteConfig.description,
+  keywords: siteConfig.keywords,
+  robots: { index: true, follow: true },
+  icons: {
+    icon: '/favicon/favicon.ico',
+    shortcut: '/favicon/favicon-16x16.png',
+    apple: '/favicon/apple-touch-icon.png',
+  },
+  verification: {
+    google: siteConfig.googleSiteVerificationId,
+  },
 };
 
-export default function RootLayout({
-  children,
-}: Readonly<{
-  children: React.ReactNode;
-}>) {
+const RootLayout = ({ children }: PropsWithChildren) => {
   return (
-    <html lang="en">
-      <body
-        className={`${geistSans.variable} ${geistMono.variable} ${amatic.variable}  antialiased`}
-      >
-        <div className="absolute top-0 -z-10">
-        <BackgroundBeams />
-
-        </div>
-        <Header/>
-          {children}
-        <Footer/>
+    <html lang="en" suppressHydrationWarning>
+      <body className={cn('min-h-screen font-sans', fonts)}>
+        <ThemeProvider attribute="class">
+          <ActiveSectionProvider>
+            {children}
+            <Toaster position="bottom-left" />
+          </ActiveSectionProvider>
+        </ThemeProvider>
       </body>
-
     </html>
   );
-}
+};
+
+export default RootLayout;

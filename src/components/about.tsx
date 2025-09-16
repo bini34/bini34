@@ -1,73 +1,44 @@
-import Image from "next/image"
-function About() {
+'use client';
+
+import { motion } from 'framer-motion';
+
+import { SectionHeading } from '@/components/section-heading';
+import { Skills } from '@/components/skills';
+import { useSectionInView } from '@/hooks/use-section-in-view';
+
+export const About = () => {
+  const { ref } = useSectionInView('About');
+
   return (
-    <section className="w-full lg:px-42 md:px-10 px-5 flex flex-col gap-10 my-10 ">
-        <h1 className="text-center font-bold md:text-7xl text-5xl "> ABOUT ME</h1>
-        <p className="text-xl font-semibold ">Hi there! I&apos;m Dylan Croft, a passionate UI/UX designer and developer hailing from the vibrant city of Toronto, Canada. With years of hands-on experience and practical knowledge, I&apos;ve had the privilege of working with top companies in the industry, honing my skills and crafting engaging digital experiences. My journey in design and development has equipped me with a deep understanding of user-centered design principles and a keen eye for detail. Outside of my professional endeavors, I&apos;m also a part-time content creator, sharing insights and tutorials on design and development through various online platforms. I thrive on the creative process, constantly seeking innovative solutions to challenges and striving to deliver impactful results. Let&apos;s collaborate and bring your digital vision to life!</p>
-        <div className="w-full flex flex-col justify-center items-center ">
-            <h2 className="text-xl font-bold mb-4">Biniyam Ambachew</h2>
-            <div >
-            <div className="h-[55rem] w-0.75 border-dashed border-1 border-gray-500 absolute z-0"></div>
-
-            </div>
-            <div className="flex flex-col gap-32 z-10 mt-32">
-            <div className="md:w-[500px] w-[400px] min-h-[200px] bg-white border-4 border-gray-500 z-10 p-5 rounded-2xl flex flex-col gap-3">
-                <div className="flex justify-between border-b-4 border-gray-400 pb-3">
-                    <div className="flex gap-2">
-                        <div className="flex items-center">
-                            <Image
-                            alt="company logo"
-                            src="/images/mlO56hcZ2tRpiredp0Ybs7avJk.avif"
-                            width= "32"
-                            height= "32"
-                            className=""
-                            />
-                        </div>
-                     
-                        <div className="flex flex-col">
-                            <h3 className="font-bold text-lg">Company Name</h3>
-                            <p className="text-gray-500">Position</p>
-                        </div>
-                    </div>
-                    <div className="flex items-center">
-                        <p className="bg-green-500  text-white rounded-lg px-2 py-1">Internship</p>
-                    </div>
-                </div>
-                <p className="text-md font-semibold"> I had the incredible opportunity to dive deep into the world of cross-platform app development. Collaborating with a talented team of engineers and designers, I contributed to the development of cutting-edge mobile applications using Flutter framework.</p>
-                <p className="text-[0.8rem]">2005-2006</p>
-            </div>
-
-            <div className="md:w-[500px]  w-[400px] min-h-[200px] bg-white border-4 border-gray-500 z-10 p-5 rounded-2xl flex flex-col gap-3">
-                <div className="flex justify-between border-b-4 border-gray-400 pb-3">
-                    <div className="flex gap-2">
-                        <div className="flex items-center">
-                        <Image
-                        alt="company logo"
-                        src="/images/mlO56hcZ2tRpiredp0Ybs7avJk.avif"
-                        width= "32"
-                        height= "32"
-                        className=""
-                        />
-                        </div>
-                     
-                        <div className="flex flex-col">
-                            <h3 className="font-bold text-lg">Company Name</h3>
-                            <p className="text-gray-500">Position</p>
-                        </div>
-                    </div>
-                    <div className="flex items-center">
-                    <p className="bg-green-500  text-white rounded-lg px-2 py-1">Internship</p>
-
-                    </div>
-                </div>
-                <p className="text-md font-semibold"> I had the incredible opportunity to dive deep into the world of cross-platform app development. Collaborating with a talented team of engineers and designers, I contributed to the development of cutting-edge mobile applications using Flutter framework.</p>
-                <p className="text-[0.8rem]">2005-2006</p>
-            </div>
-            </div>
-
-            </div>
-    </section>
-  )
-}
-
-export default About
+    <motion.section
+      ref={ref}
+      id="about"
+      className="my-10 flex w-full scroll-mt-28 flex-col items-center md:mb-20"
+      initial={{ opacity: 0, y: 100 }}
+      animate={{ opacity: 1, y: 0 }}
+      transition={{ delay: 0.175 }}
+    >
+      <SectionHeading heading="About Me" />
+      <div className="-mt-5 max-w-2xl text-center leading-7">
+        <p className="mb-4">
+          I&apos;m Michał Skolak, I&apos;m a front-end developer from Poland.
+          I&apos;ve been learning programming for over 3 years. After I started
+          high school, I decided to pursue my passion for programming. My
+          favorite part of programming is the problem-solving aspect. I love the
+          feeling of finally figuring out a solution to a problem. I&apos;ve had
+          the opportunity to work on several exciting projects during my
+          learning journey, ranging from personal projects to collaborative
+          ventures. My core stack is React, Next.js, TypeScript, and Tailwind
+          CSS. I am also familiar with Nest.js and Prisma. I&apos;m always
+          looking to learn new technologies.
+        </p>
+        <p>
+          I&apos;m open to Job opportunities where I can contribute, learn and
+          grow. If you have a good opportunity that matches my skills and
+          experience then don&apos;t hesitate to contact me.
+        </p>
+      </div>
+      <Skills />
+    </motion.section>
+  );
+};

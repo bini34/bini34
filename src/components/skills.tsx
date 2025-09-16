@@ -1,27 +1,40 @@
-import { InfiniteMovingCards } from "./ui/infinite-moving-cards"
+'use client';
 
-function Skills() {
-    const brandLogos = [
-        // { src: '<svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>Next.js</title><path d="M18.665 21.978C16.758 23.255 14.465 24 12 24 5.377 24 0 18.623 0 12S5.377 0 12 0s12 5.377 12 12c0 3.583-1.574 6.801-4.067 9.001L9.219 7.2H7.2v9.596h1.615V9.251l9.85 12.727Zm-3.332-8.533 1.6 2.061V7.2h-1.6v6.245Z"/></svg>', alt: 'Brand Logo 1' },
-        { src: '/images/logos/logo.png', alt: 'Brand Logo 2' },
-        { src: '/images/logos/logo.png', alt: 'Brand Logo 3' },
-        { src: '/images/logos/logo.png', alt: 'Brand Logo 4' },
-        { src: '/images/logos/logo.png', alt: 'Brand Logo 5' },
-      ]
-    
-      return (
-      
-        <div className="h-[5rem] rounded-md flex flex-col antialiased bg-transparent items-center justify-center w-full overflow-hidden p-0  ">
-            <InfiniteMovingCards
-                items={brandLogos}
-                direction="right"
-                speed="slow"
-            />
-        </div>
-    
-          
-      )
-  
-}
+import { motion } from 'framer-motion';
 
-export default Skills
+import { skillsData } from '@/lib/data';
+
+const fadeInAnimationVariants = {
+  initial: {
+    opacity: 0,
+    y: 100,
+  },
+  animate: (index: number) => ({
+    opacity: 1,
+    y: 0,
+    transition: {
+      delay: 0.05 * index,
+    },
+  }),
+};
+
+export const Skills = () => {
+  return (
+    <div className="mt-10 flex w-full flex-wrap justify-between gap-10 px-5 sm:justify-center sm:px-0 md:mt-14 lg:justify-between">
+      {skillsData.map(({ icon }, index) => (
+        <motion.div
+          key={index}
+          variants={fadeInAnimationVariants}
+          initial="initial"
+          whileInView="animate"
+          viewport={{
+            once: true,
+          }}
+          custom={index}
+        >
+          {icon}
+        </motion.div>
+      ))}
+    </div>
+  );
+};
