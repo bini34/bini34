@@ -33,6 +33,8 @@ export const siteConfig = {
     'Software Engineer',
     'Tech enthusiast',
   ],
-  // url: env.SITE_URL || 'https://example.com',
+  url: 'https://biniyamambachew.vercel.app',
+  googleSiteVerificationId: '',
+  //   url: env.SITE_URL || 'https://example.com',
   // googleSiteVerificationId: env.GOOGLE_SITE_VERIFICATION_ID || '',
 };
