@@ -87,15 +87,7 @@ export const projectsData = [
 ] as const;
 
 export const experiencesData = [
-  {
-    title: 'Front-End Developer',
-    company: 'Yennu Creatives',
-    description:
-      'Built and optimized responsive user interfaces for modern web applications. Collaborated with cross-functional teams to deliver high-quality, scalable solutions. Ensured performance, usability, and clean code through testing and best practices.',
-    period: '2024 - 2025',
-    technologies: ['React', 'Next.js', 'TypeScript', 'Tailwind', 'Figma'],
-  },
-  {
+    {
     title: 'Full-Stack Developer',
     company: 'Freelancing, Remote',
     description:
@@ -114,6 +106,14 @@ export const experiencesData = [
       'Django',
       'Flutter',
     ],
+  },
+  {
+    title: 'Front-End Developer',
+    company: 'Yennu Creatives',
+    description:
+      'Built and optimized responsive user interfaces for modern web applications. Collaborated with cross-functional teams to deliver high-quality, scalable solutions. Ensured performance, usability, and clean code through testing and best practices.',
+    period: '2024 - 2025',
+    technologies: ['React', 'Next.js', 'TypeScript', 'Tailwind', 'Figma'],
   },
   {
     title: 'Back-End Developer Intern',
