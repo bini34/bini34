@@ -77,7 +77,7 @@ export const Intro = () => {
         </Button>
 
         <Button variant="outline" size="lg" className="hidden sm:flex" asChild>
-          <a href="/BiniyamBeyene_CV.pdf" download>
+          <a href="/biniyamambachew.pdf" download>
             Download CV <Icons.download className="ml-2 size-4" />
           </a>
         </Button>
