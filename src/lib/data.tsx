@@ -55,7 +55,7 @@ export const projectsData = [
     },
   },
   {
-    image: '/images/project-4   .png',
+    image: '/images/project-4.png',
     title: 'Budget vision',
     description:
       'A full-stack personal finance management app built with Next.js and Node.js. Helps users track and control their budgets efficiently.',
