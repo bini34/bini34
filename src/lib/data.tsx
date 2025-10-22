@@ -68,7 +68,7 @@ export const projectsData = [
     ],
     links: {
       preview: 'https://budget-vision-finances.vercel.app/', // replace with actual live link
-      github: 'https://github.com/bini34/', // replace with your repo link
+      github: '', // replace with your repo link
       githubApi: 'https://api.github.com/repos/Biniyam/BudgetBuddy',
     },
   },
@@ -80,7 +80,7 @@ export const projectsData = [
     technologies: ['Next.js', 'React', 'Tailwind CSS', 'TypeScript'],
     links: {
       preview: 'https://yennucreatives.com', // replace with actual live link
-      github: 'https://github.com/bini34', // replace with your repo link
+      github: '', // replace with your repo link
       githubApi: 'https://api.github.com/repos/Biniyam/YennuCreatives',
     },
   },
@@ -141,6 +141,8 @@ export const skillsData = [
   { icon: <Icons.react className="size-12" /> },
   { icon: <Icons.redux className="size-12" /> },
   { icon: <Icons.nextjs className="size-12" /> },
+  { icon: <Icons.django className="size-12" /> },
+  { icon: <Icons.laravel className="size-12" /> },
   { icon: <Icons.nestjs className="size-12" /> },
   { icon: <Icons.prisma className="size-12" /> },
   { icon: <Icons.docker className="size-12" /> },

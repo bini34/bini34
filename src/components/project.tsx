@@ -42,7 +42,7 @@ export const Project = ({ project, index }: TProps) => {
       className="flex flex-col rounded border p-5"
     >
       <Link
-        href={links.github}
+        href={links.github || links.preview}
         aria-label={title}
         target="_blank"
         className="overflow-hidden rounded"
