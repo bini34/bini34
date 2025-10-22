@@ -25,7 +25,7 @@ export const links = [
 
 export const projectsData = [
   {
-    image: '/images/eros-addis.webp',
+    image: '/images/project-1.png',
     title: 'Eros Addis Restaurant Website',
     description:
       'A WordPress-based restaurant website featuring online reservation, menu display, about page, and contact information. Designed for a seamless user experience.',
@@ -37,7 +37,7 @@ export const projectsData = [
     },
   },
   {
-    image: '/images/skillfy.webp',
+    image: '/images/project-2.png',
     title: 'Skillfy',
     description:
       'A full-stack e-learning platform connecting instructors and students. Students can browse courses, make purchases using Chapa, and track their learning progress.',
@@ -50,13 +50,13 @@ export const projectsData = [
     ],
     links: {
       preview: 'https://skillfy.com', // replace with actual live link
-      github: 'https://github.com/Biniyam/Skillfy', // replace with your repo link
-      githubApi: 'https://api.github.com/repos/Biniyam/Skillfy',
+      github: 'https://github.com/bini34/Skillfy', // replace with your repo link
+      githubApi: 'https://api.github.com/repos/bini34/Skillfy',
     },
   },
   {
-    image: '/images/budget-buddy.webp',
-    title: 'Budget Buddy',
+    image: '/images/project-4   .png',
+    title: 'Budget vision',
     description:
       'A full-stack personal finance management app built with Next.js and Node.js. Helps users track and control their budgets efficiently.',
     technologies: [
@@ -67,27 +67,27 @@ export const projectsData = [
       'TypeScript',
     ],
     links: {
-      preview: 'https://budgetbuddy.com', // replace with actual live link
-      github: 'https://github.com/Biniyam/BudgetBuddy', // replace with your repo link
+      preview: 'https://budget-vision-finances.vercel.app/', // replace with actual live link
+      github: 'https://github.com/bini34/', // replace with your repo link
       githubApi: 'https://api.github.com/repos/Biniyam/BudgetBuddy',
     },
   },
   {
-    image: '/images/yennu-creatives.webp',
+    image: '/images/project-3.png',
     title: 'Yennu Creatives Website',
     description:
       'A modern agency website with Home, About, Projects, and Contact pages, built to showcase services and portfolio projects.',
     technologies: ['Next.js', 'React', 'Tailwind CSS', 'TypeScript'],
     links: {
       preview: 'https://yennucreatives.com', // replace with actual live link
-      github: 'https://github.com/Biniyam/YennuCreatives', // replace with your repo link
+      github: 'https://github.com/bini34', // replace with your repo link
       githubApi: 'https://api.github.com/repos/Biniyam/YennuCreatives',
     },
   },
 ] as const;
 
 export const experiencesData = [
-    {
+  {
     title: 'Full-Stack Developer',
     company: 'Freelancing, Remote',
     description:
