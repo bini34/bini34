@@ -79,7 +79,7 @@ export const projectsData = [
       'A modern agency website with Home, About, Projects, and Contact pages, built to showcase services and portfolio projects.',
     technologies: ['Next.js', 'React', 'Tailwind CSS', 'TypeScript'],
     links: {
-      preview: 'https://yennucreatives.com', // replace with actual live link
+      preview: 'yennu.vercel.app', // replace with actual live link
       github: '', // replace with your repo link
       githubApi: 'https://api.github.com/repos/Biniyam/YennuCreatives',
     },
