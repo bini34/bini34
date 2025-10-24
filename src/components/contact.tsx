@@ -12,6 +12,7 @@ import { Icons } from '@/components/icons';
 import { SectionHeading } from '@/components/section-heading';
 import { useSectionInView } from '@/hooks/use-section-in-view';
 import { formSchema, TFormSchema } from '@/lib/form-schema';
+import { siteConfig } from '@/lib/site-config';
 import { cn } from '@/lib/utils';
 
 export const Contact = () => {
@@ -66,6 +67,15 @@ export const Contact = () => {
               <Link href="mailto:biniyamambachew@gmail.com">
                 biniyamambachew@gmail.com
               </Link>
+            </Button>{' '}
+            <br />
+            or call me at{' '}
+            <Button
+              variant="link"
+              className="text-muted-foreground hover:text-foreground h-fit p-0 font-medium underline transition-colors"
+              asChild
+            >
+              <Link href={`tel:${siteConfig.phone}`}>{siteConfig.phone}</Link>
             </Button>{' '}
             or through this form.
           </>

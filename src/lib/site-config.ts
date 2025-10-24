@@ -35,6 +35,7 @@ export const siteConfig = {
   ],
   url: 'https://biniyamambachew.vercel.app',
   googleSiteVerificationId: '',
+  phone: '+251975621803',
   //   url: env.SITE_URL || 'https://example.com',
   // googleSiteVerificationId: env.GOOGLE_SITE_VERIFICATION_ID || '',
 };
