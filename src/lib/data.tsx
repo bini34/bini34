@@ -120,7 +120,7 @@ export const experiencesData = [
     company: 'Perago Systems',
     description:
       'Actively contributed to migrating legacy systems to cloud-based architectures. Focused on analyzing, mapping, and transferring large datasets while ensuring data integrity. Developed and tested migration scripts, documented schemas, and collaborated with cross-functional teams to modernize application components.',
-    period: 'Jul 2025 - Present',
+    period: 'Jul 2025 - Sep 2025',
     technologies: [
       'Microsoft SQL Server',
       'PostgreSQL',
