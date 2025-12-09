@@ -19,7 +19,7 @@ export const About = () => {
       transition={{ delay: 0.175 }}
     >
       <SectionHeading heading="About Me" />
-      <div className="-mt-5 max-w-2xl text-center leading-7">
+      <div className="-mt-5 max-w-4xl text-center leading-7">
         <p className="mb-4">
           I&apos;m Biniyam Ambachew, I&apos;m a full-stack developer from
           Ethiopia. I&apos;ve been learning programming for over 3 years. Since
