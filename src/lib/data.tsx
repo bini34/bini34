@@ -73,15 +73,15 @@ export const projectsData = [
     },
   },
   {
-    image: '/images/project-3.png',
-    title: 'Yennu Creatives Website',
+    image: '/images/project-5.png',
+    title: 'ElevateU',
     description:
-      'A modern agency website with Home, About, Projects, and Contact pages, built to showcase services and portfolio projects.',
-    technologies: ['Next.js', 'React', 'Tailwind CSS', 'TypeScript'],
+      'A full-stack social networking platform with real-time chat, group messaging, notifications, and a social feed. Features live WebSocket communication via Laravel Reverb, avatar uploads, and end-to-end containerized deployment with Docker.',
+    technologies: ['Next.js', 'Laravel', 'Laravel Reverb', 'MySQL', 'Docker', 'Tailwind CSS'],
     links: {
-      preview: 'https://yennu.vercel.app', // replace with actual live link
-      github: '', // replace with your repo link
-      githubApi: 'https://api.github.com/repos/Biniyam/YennuCreatives',
+      preview: '',
+      github: 'https://github.com/bini34/ElevateU',
+      githubApi: 'https://api.github.com/repos/bini34/ElevateU',
     },
   },
 ] as const;
