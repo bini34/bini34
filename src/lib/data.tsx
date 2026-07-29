@@ -77,7 +77,14 @@ export const projectsData = [
     title: 'ElevateU',
     description:
       'A full-stack social networking platform with real-time chat, group messaging, notifications, and a social feed. Features live WebSocket communication via Laravel Reverb, avatar uploads, and end-to-end containerized deployment with Docker.',
-    technologies: ['Next.js', 'Laravel', 'Laravel Reverb', 'MySQL', 'Docker', 'Tailwind CSS'],
+    technologies: [
+      'Next.js',
+      'Laravel',
+      'Laravel Reverb',
+      'MySQL',
+      'Docker',
+      'Tailwind CSS',
+    ],
     links: {
       preview: '',
       github: 'https://github.com/bini34/ElevateU',
