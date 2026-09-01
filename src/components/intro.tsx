@@ -56,7 +56,9 @@ export const Intro = () => {
         }}
         className="text-muted-foreground max-w-xl"
       >
-        I&apos;m Biniyam, a full-stack developer building fast, responsive, and user-friendly digital experiences from business websites and WordPress projects to custom web applications.
+        I&apos;m Biniyam, a full-stack developer building fast, responsive, and
+        user-friendly digital experiences from business websites and WordPress
+        projects to custom web applications.
       </motion.p>
 
       <motion.div
@@ -69,7 +71,8 @@ export const Intro = () => {
       >
         <Button asChild size="lg">
           <Link href="#contact">
-            Let&apos;s work together <Icons.arrowRight className="ml-2 size-4" />
+            Let&apos;s work together{' '}
+            <Icons.arrowRight className="ml-2 size-4" />
           </Link>
         </Button>
 

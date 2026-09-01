@@ -20,23 +20,25 @@ export const About = () => {
     >
       <SectionHeading heading="About Me" />
       <div className="-mt-5 max-w-4xl text-center leading-7">
-      <p className="mb-4">
-          I&apos;m Biniyam Ambachew, a full-stack developer based in Ethiopia. I build
-          modern, responsive websites and web applications for businesses, turning
-          ideas into fast, reliable, and user-friendly digital experiences.
+        <p className="mb-4">
+          I&apos;m Biniyam Ambachew, a full-stack developer based in Ethiopia. I
+          build modern, responsive websites and web applications for businesses,
+          turning ideas into fast, reliable, and user-friendly digital
+          experiences.
         </p>
 
         <p className="mb-4">
-          I&apos;ve worked on projects ranging from business websites and e-commerce
-          platforms to custom web applications. My core stack includes React, Next.js,
-          TypeScript, and Tailwind CSS, with experience using Node.js, Nest.js, Laravel,
-          Django, WordPress, and Flutter.
+          I&apos;ve worked on projects ranging from business websites and
+          e-commerce platforms to custom web applications. My core stack
+          includes React, Next.js, TypeScript, and Tailwind CSS, with experience
+          using Node.js, Nest.js, Laravel, Django, WordPress, and Flutter.
         </p>
 
         <p>
-          I&apos;m currently available for freelance projects and collaborations.
-          If you&apos;re looking to build a new website, improve an existing one, or
-          bring a digital product idea to life, feel free to get in touch.
+          I&apos;m currently available for freelance projects and
+          collaborations. If you&apos;re looking to build a new website, improve
+          an existing one, or bring a digital product idea to life, feel free to
+          get in touch.
         </p>
       </div>
 
