@@ -32,7 +32,7 @@ export const Intro = () => {
             <span className="absolute flex size-full animate-ping rounded-full bg-green-400 opacity-75"></span>
             <span className="relative flex size-2 rounded-full bg-green-400"></span>
           </span>
-          <span className="font-mono text-sm">Available for work!</span>
+          <span className="font-mono text-sm">Available for new projects</span>
         </Link>
       </motion.div>
 
@@ -41,11 +41,11 @@ export const Intro = () => {
         animate={{ opacity: 1, y: 0 }}
         className="font-heading max-w-3xl text-4xl font-extrabold md:text-5xl"
       >
-        Hi, I&apos;m a{' '}
+        I build{' '}
         <span className="bg-gradient-to-r from-rose-700 to-pink-600 bg-clip-text text-transparent">
-          Full-Stack
+          Modern Websites
         </span>
-        {'  '}Developer building modern web & mobile applications.
+        {'  '} & web applications that help businesses grow.
       </motion.h1>
 
       <motion.p
@@ -56,10 +56,7 @@ export const Intro = () => {
         }}
         className="text-muted-foreground max-w-xl"
       >
-        I&apos;m a full-stack developer based in Ethiopia, passionate about
-        building robust and scalable web apps. I work with technologies like
-        React, Next.js, Node.js, Nest.js, Tailwind CSS, and databases like
-        PostgreSQL and MongoDB.
+        I&apos;m Biniyam, a full-stack developer building fast, responsive, and user-friendly digital experiences from business websites and WordPress projects to custom web applications.
       </motion.p>
 
       <motion.div
@@ -72,7 +69,7 @@ export const Intro = () => {
       >
         <Button asChild size="lg">
           <Link href="#contact">
-            Get in touch <Icons.arrowRight className="ml-2 size-4" />
+            Let&apos;s work together <Icons.arrowRight className="ml-2 size-4" />
           </Link>
         </Button>
 

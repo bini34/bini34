@@ -25,70 +25,78 @@ export const links = [
 
 export const projectsData = [
   {
-    image: '/images/project-1.png',
-    title: 'Eros Addis Restaurant Website',
+    image: '/images/eros-addis.png',
+    title: 'Eros Addis Restaurant',
+    category: 'Restaurant Website',
     description:
-      'A WordPress-based restaurant website featuring online reservation, menu display, about page, and contact information. Designed for a seamless user experience.',
-    technologies: ['WordPress', 'PHP', 'HTML', 'CSS', 'JavaScript'],
+      'A responsive WordPress website for Eros Addis Restaurant, making it easy for customers to explore the menu, learn about the restaurant, make reservations, and get in touch.',
+    technologies: ['WordPress', 'PHP', 'JavaScript'],
     links: {
-      preview: 'https://erosaddis.com', // replace with actual live link
-      github: '', // WordPress project, GitHub link optional
+      preview: 'https://erosaddis.com',
+      github: '',
       githubApi: '',
     },
   },
+
   {
-    image: '/images/project-2.png',
-    title: 'Skillfy',
+    image: '/images/wassamar-hotel.png',
+    title: 'Wassamar Hotel',
+    category: 'Hotel Website',
     description:
-      'A full-stack e-learning platform connecting instructors and students. Students can browse courses, make purchases using Chapa, and track their learning progress.',
+      'A modern hotel website designed to showcase rooms, dining, amenities, and hotel information while making it easier for guests to inquire and book their stay.',
+    technologies: ['Next.js', 'TypeScript', 'Tailwind CSS'],
+    links: {
+      preview: 'https://w-fawn-ten.vercel.app/',
+      github: '',
+      githubApi: '',
+    },
+  },
+
+  {
+    image: '/images/clearway.png',
+    title: 'Clearway Manufacturing',
+    category: 'Corporate Website',
+    description:
+      'A modern corporate website for a tissue manufacturing company, designed to present the company, its products, and its commitment to sustainable manufacturing.',
+    technologies: ['Next.js', 'TypeScript', 'Tailwind CSS'],
+    links: {
+      preview: 'https://clearway-psi.vercel.app/',
+      github: '',
+      githubApi: '',
+    },
+  },
+
+  {
+    image: '/images/dr-nasis.png',
+    title: 'Dr Nasis Specialty Dental Clinic',
+    category: 'Dental Clinic Website — Concept',
+    description:
+      'A modern website concept for a specialty dental clinic, designed to showcase services, build patient trust, and make appointment booking simple and accessible.',
+    technologies: ['Next.js', 'TypeScript', 'Tailwind CSS'],
+    links: {
+      preview: 'YOUR_DEMO_URL',
+      github: '',
+      githubApi: '',
+    },
+  },
+
+  {
+    image: '/images/skillfy.png',
+    title: 'Skillfy',
+    category: 'Web Application',
+    description:
+      'A full-stack e-learning platform where students can discover courses, purchase them online, and track their learning progress.',
     technologies: [
       'React',
       'ASP.NET Core',
-      'Chapa API',
+      'Chapa',
       'SQL Server',
       'Tailwind CSS',
     ],
     links: {
-      preview: 'https://skillfy.com', // replace with actual live link
-      github: 'https://github.com/bini34/Skillfy', // replace with your repo link
+      preview: 'YOUR_REAL_URL',
+      github: 'https://github.com/bini34/Skillfy',
       githubApi: 'https://api.github.com/repos/bini34/Skillfy',
-    },
-  },
-  {
-    image: '/images/project-4.png',
-    title: 'Budget vision',
-    description:
-      'A full-stack personal finance management app built with Next.js and Node.js. Helps users track and control their budgets efficiently.',
-    technologies: [
-      'Next.js',
-      'Node.js',
-      'MongoDB',
-      'Tailwind CSS',
-      'TypeScript',
-    ],
-    links: {
-      preview: 'https://budget-vision-finances.vercel.app/', // replace with actual live link
-      github: '', // replace with your repo link
-      githubApi: 'https://api.github.com/repos/Biniyam/BudgetBuddy',
-    },
-  },
-  {
-    image: '/images/project-5.png',
-    title: 'ElevateU',
-    description:
-      'A full-stack social networking platform with real-time chat, group messaging, notifications, and a social feed. Features live WebSocket communication via Laravel Reverb, avatar uploads, and end-to-end containerized deployment with Docker.',
-    technologies: [
-      'Next.js',
-      'Laravel',
-      'Laravel Reverb',
-      'MySQL',
-      'Docker',
-      'Tailwind CSS',
-    ],
-    links: {
-      preview: '',
-      github: 'https://github.com/bini34/ElevateU',
-      githubApi: 'https://api.github.com/repos/bini34/ElevateU',
     },
   },
 ] as const;

@@ -16,7 +16,7 @@ const HomePage = async () => {
         <Intro />
         <SectionDivider />
         <About />
-        <Experience />
+        {/* <Experience /> */}
         <Projects />
         <Contact />
         <Footer />

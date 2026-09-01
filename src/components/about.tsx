@@ -20,23 +20,23 @@ export const About = () => {
     >
       <SectionHeading heading="About Me" />
       <div className="-mt-5 max-w-4xl text-center leading-7">
-        <p className="mb-4">
-          I&apos;m Biniyam Ambachew, I&apos;m a full-stack developer from
-          Ethiopia. I&apos;ve been learning programming for over 3 years. Since
-          high school, I decided to pursue my passion for software development.
-          My favorite part of programming is solving complex problems and
-          turning ideas into real applications. I love the process of building
-          projects from scratch and seeing them come to life. I&apos;ve worked
-          various projects ranging from personal experiments to collaborative
-          ventures. My core stack is React, Next.js, TypeScript, and Tailwind
-          CSS. I am also familiar with Node.js, Nest.js, Laravel, Django, and
-          Flutter. I&apos;m always eager to explore new technologies and improve
-          my skills.
+      <p className="mb-4">
+          I&apos;m Biniyam Ambachew, a full-stack developer based in Ethiopia. I build
+          modern, responsive websites and web applications for businesses, turning
+          ideas into fast, reliable, and user-friendly digital experiences.
         </p>
+
+        <p className="mb-4">
+          I&apos;ve worked on projects ranging from business websites and e-commerce
+          platforms to custom web applications. My core stack includes React, Next.js,
+          TypeScript, and Tailwind CSS, with experience using Node.js, Nest.js, Laravel,
+          Django, WordPress, and Flutter.
+        </p>
+
         <p>
-          I&apos;m open to job opportunities where I can contribute, grow, and
-          continuously improve as a developer. If you have a role that aligns
-          with my skills and experience, feel free to reach out!
+          I&apos;m currently available for freelance projects and collaborations.
+          If you&apos;re looking to build a new website, improve an existing one, or
+          bring a digital product idea to life, feel free to get in touch.
         </p>
       </div>
 
