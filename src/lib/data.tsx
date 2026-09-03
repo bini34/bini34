@@ -9,6 +9,10 @@ export const links = [
     name: 'About',
     hash: '#about',
   },
+  {
+    name: 'Experience',
+    hash: '#experience',
+  },
 
   {
     name: 'Projects',
@@ -94,6 +98,19 @@ export const projectsData = [
       preview: 'YOUR_REAL_URL',
       github: 'https://github.com/bini34/Skillfy',
       githubApi: 'https://api.github.com/repos/bini34/Skillfy',
+    },
+  },
+  {
+    image: '/images/project-5.png',
+    title: 'ElevateU',
+    category: 'Web Application',
+    description:
+      'A social media platform: feed with posts, likes and comments, real-time direct & group chat, live notifications, and user profiles.',
+    technologies: ['Next.js', 'TypeScript', 'Tailwind CSS', 'Laravel', 'MySQL'],
+    links: {
+      preview: 'YOUR_DEMO_URL',
+      github: 'https://github.com/bini34/ElevateU',
+      githubApi: 'https://api.github.com/repos/bini34/ElevateU',
     },
   },
 ] as const;
