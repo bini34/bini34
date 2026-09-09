@@ -75,7 +75,7 @@ export const projectsData = [
       'A modern website concept for a specialty dental clinic, designed to showcase services, build patient trust, and make appointment booking simple and accessible.',
     technologies: ['Next.js', 'TypeScript', 'Tailwind CSS'],
     links: {
-      preview: 'YOUR_DEMO_URL',
+      preview: 'https://dr-nasis-speciality-dental-clinic.vercel.app/',
       github: '',
       githubApi: '',
     },
