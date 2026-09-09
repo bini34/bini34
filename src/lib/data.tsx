@@ -28,7 +28,7 @@ export const projectsData = [
   {
     image: '/images/eros-addis.png',
     title: 'Eros Addis Restaurant',
-    category: 'Restaurant Website',
+    category: 'Website',
     description:
       'A responsive WordPress website for Eros Addis Restaurant, making it easy for customers to explore the menu, learn about the restaurant, make reservations, and get in touch.',
     technologies: ['WordPress', 'PHP', 'JavaScript'],
@@ -42,7 +42,7 @@ export const projectsData = [
   {
     image: '/images/wassamar-hotel.png',
     title: 'Wassamar Hotel',
-    category: 'Hotel Website',
+    category: 'Website',
     description:
       'A modern hotel website designed to showcase rooms, dining, amenities, and hotel information while making it easier for guests to inquire and book their stay.',
     technologies: ['Next.js', 'TypeScript', 'Tailwind CSS'],
@@ -56,7 +56,7 @@ export const projectsData = [
   {
     image: '/images/clearway.png',
     title: 'Clearway Manufacturing',
-    category: 'Corporate Website',
+    category: 'Website',
     description:
       'A modern corporate website for a tissue manufacturing company, designed to present the company, its products, and its commitment to sustainable manufacturing.',
     technologies: ['Next.js', 'TypeScript', 'Tailwind CSS'],
@@ -70,7 +70,7 @@ export const projectsData = [
   {
     image: '/images/dr-nasis.png',
     title: 'Dr Nasis Specialty Dental Clinic',
-    category: 'Dental Clinic Website — Concept',
+    category: 'Website',
     description:
       'A modern website concept for a specialty dental clinic, designed to showcase services, build patient trust, and make appointment booking simple and accessible.',
     technologies: ['Next.js', 'TypeScript', 'Tailwind CSS'],
@@ -83,7 +83,7 @@ export const projectsData = [
   {
     image: '/images/gursha.png',
     title: 'Gursha Restaurant',
-    category: 'Restaurant Website',
+    category: 'Website',
     description:
       'A modern website for Gursha Restaurant, designed to showcase the menu, create an engaging dining experience, and make it easy for customers to make reservations.',
     technologies: ['Next.js', 'TypeScript', 'Tailwind CSS'],
@@ -97,7 +97,7 @@ export const projectsData = [
   {
     image: '/images/skillfy.png',
     title: 'Skillfy',
-    category: 'Web Application',
+    category: 'Web App',
     description:
       'A full-stack e-learning platform where students can discover courses, purchase them online, and track their learning progress.',
     technologies: [
@@ -116,7 +116,7 @@ export const projectsData = [
   {
     image: '/images/project-5.png',
     title: 'ElevateU',
-    category: 'Web Application',
+    category: 'Web App',
     description:
       'A social media platform: feed with posts, likes and comments, real-time direct & group chat, live notifications, and user profiles.',
     technologies: ['Next.js', 'TypeScript', 'Tailwind CSS', 'Laravel', 'MySQL'],
