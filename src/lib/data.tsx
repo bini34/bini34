@@ -80,6 +80,19 @@ export const projectsData = [
       githubApi: '',
     },
   },
+  {
+    image: '/images/gursha.png',
+    title: 'Gursha Restaurant',
+    category: 'Restaurant Website',
+    description:
+      'A modern website for Gursha Restaurant, designed to showcase the menu, create an engaging dining experience, and make it easy for customers to make reservations.',
+    technologies: ['Next.js', 'TypeScript', 'Tailwind CSS'],
+    links: {
+      preview: 'https://gursha-restorant.vercel.app/',
+      github: '',
+      githubApi: '',
+    },
+  },
 
   {
     image: '/images/skillfy.png',
