@@ -24,7 +24,7 @@
 
 **<h3 align="left">Rapid Fire</h3>**
 
-- 💼 I'm currently working on: **💻 Developing a Medicine & Appointment Reminder App Using Flutter and Firebase** 
+- 💼 I'm currently working on: **💻 Developing a cosmetics ecommerce App Using Flutter, Next js and Djiango** 
 - 🌱 I'm currently learning: **👨‍💻 Flutter**
 - 💬 Ask me about: **💡 JavaScript, React, Node.js, Mysql, and RESTful APIs**
 - ⚡ Fun fact: **🎢 I once debugged a issue while on a roller coaster!**
