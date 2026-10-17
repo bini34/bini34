@@ -126,6 +126,17 @@ export const projectsData = [
       githubApi: 'https://api.github.com/repos/bini34/ElevateU',
     },
   },
+  {
+    image: '/images/project-6.png',
+    title: 'Dashboard Admin Panel',
+    category: 'Web App',
+    description:
+      'A modern admin dashboard template with responsive design, data visualization, and user management features.',
+    technologies: ['Next.js', 'TypeScript', 'Tailwind CSS', 'Django', 'postgreSQL'],
+    links: {
+      preview: 'https://flawle.vercel.app/',
+      github: 'github.com/bini34/Flawle '
+  }
 ] as const;
 
 export const experiencesData = [
