@@ -132,11 +132,18 @@ export const projectsData = [
     category: 'Web App',
     description:
       'A modern admin dashboard template with responsive design, data visualization, and user management features.',
-    technologies: ['Next.js', 'TypeScript', 'Tailwind CSS', 'Django', 'postgreSQL'],
+    technologies: [
+      'Next.js',
+      'TypeScript',
+      'Tailwind CSS',
+      'Django',
+      'postgreSQL',
+    ],
     links: {
       preview: 'https://flawle.vercel.app/',
-      github: 'github.com/bini34/Flawle '
-  }
+      github: 'github.com/bini34/Flawle ',
+    },
+  },
 ] as const;
 
 export const experiencesData = [
